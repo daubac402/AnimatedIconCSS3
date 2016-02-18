@@ -32,6 +32,13 @@
     <div class="cloud"></div>
 </div>
 
+<div class="icon eclipse">
+    <div class="moon_eclipse"></div>
+    <div class="sun sun-eclipse">
+        <div class="rays"></div>
+    </div>
+</div>
+
 <div class="icon flurries">
     <div class="cloud"></div>
     <div class="snow">
@@ -93,4 +100,8 @@
 <div class="icon rocket">
     <div class="rocket_thrust"></div>
     <div class="rocket_body"></div>
+</div>
+
+<div class="icon chrome">
+    <div class="chrome_logo"></div>
 </div>

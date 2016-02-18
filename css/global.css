@@ -188,10 +188,31 @@ p {
     width: 2.5em;
     height: 2.5em;
     margin: -1.25em;
-    background: currentColor;
+    background: transparent;
     border-radius: 50%;
     box-shadow: 0 0 0 0.375em #fff;
     animation: spin 12s infinite linear;
+}
+
+.moon_eclipse {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    opacity: 0;
+    width: 2.5em;
+    height: 2.5em;
+    margin: -1.25em;
+    background: #FFFFEA;
+    border-radius: 50%;
+    animation: eclipse_moon 4s infinite linear;
+}
+
+.sun-eclipse {
+    animation: spin 12s infinite linear, eclipse_sun 4s infinite linear;
+}
+
+.sun-eclipse .rays {
+    animation: eclipse_ray 4s infinite linear;
 }
 
 .rays {
@@ -404,15 +425,27 @@ p {
     animation: rocket_thrust 0.8s linear infinite;
 }
 
-.rocket_body{
+.rocket_body {
     background: url('../img/rocket_body.png');
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -40px -40px;
+    margin: -40px;
     height: 80px;
     width: 80px;
     background-size: 100% 100%;
+}
+
+.chrome_logo {
+    background: url('../img/chrome.png');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -35px;
+    height: 70px;
+    width: 70px;
+    background-size: 100% 100%;
+    animation: chrome_spin 2s linear infinite;
 }
 
 /* Animations */
@@ -426,6 +459,11 @@ p {
 @keyframes small_spin {
     0%, 50%    { transform: rotate(0deg)  }
     75%        { transform: rotate(10deg) }
+}
+
+@keyframes chrome_spin {
+    10%, 90%     { transform: rotate(0deg)  }
+    50%     { transform: rotate(900deg) }
 }
 
 @keyframes rocket_thrust {
@@ -523,5 +561,32 @@ p {
         color: #000;
         background: #000;
         opacity: 0.2;
+    }
+}
+
+@keyframes eclipse_sun {
+    25%,75% { box-shadow: 0 0 0 0.375em #fff; }
+    50% { box-shadow: 0 0 30px 0.375em #fff; }
+}
+
+@keyframes eclipse_ray {
+    50% { opacity: 0; }
+}
+
+@keyframes eclipse_moon {
+    0% { 
+        opacity: 0;
+        top: 60%;
+        left: 10%;
+    }
+    50% { 
+        opacity: 1;
+        top: 50%;
+        left: 50%;
+    }
+    100% { 
+        opacity: 0;
+        top: 60%;
+        left: 90%;
     }
 }
