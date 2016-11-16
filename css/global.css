@@ -10,7 +10,7 @@ html *:after {
 
 body {
     max-width: 960px;
-    padding: 2em;
+    padding: 0 2em 2em 2em;
     margin: 0 auto;
     color: #161616;
     font-family: 'Roboto', sans-serif;
@@ -19,7 +19,6 @@ body {
 }
 
 h1 {
-    margin-bottom: 1.375em;
     color: #fff;
     font-weight: 100;
     font-size: 2em;
