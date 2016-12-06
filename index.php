@@ -2,8 +2,7 @@
     <meta name="description" content="All of Animated Icons here are made by css3, no images, no javascripts">
     <meta name="keywords" content="animated icons, animated, icons, css3, images, google, analytic, adsense, weather, logo, online, javascript">
     <meta name="author" content="daubac403@gmail.com">
-
-    <link rel="stylesheet" type="text/css" href="css/global.css?v=20161116">
+    <link rel="stylesheet" type="text/css" href="css/global.css?v=20161206">
     <script>
     (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -18,6 +17,22 @@
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
     ga('create', 'UA-19534192-5', 'auto');
     ga('send', 'pageview');
+    </script>
+    <script async>
+    window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function(f) {
+            t._e.push(f);
+        };
+        return t;
+    }(document, "script", "twitter-wjs"));
     </script>
     <div id="fb-root"></div>
     <script>
@@ -40,6 +55,7 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
     </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- animatedicons.pe.hu -->
     <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8395820335361202" data-ad-slot="9996632977"></ins>
@@ -87,18 +103,14 @@
     <div style="width: 100%">
         <div class="adsoptimal-slot" style="width: 728px; height: 90px; margin: 0 auto;"></div>
     </div>
+
     <h1>Animated Icons</h1>
-    <h2>
-    <div
-  class="fb-like"
-  data-share="true"
-  data-width="450"
-  data-show-faces="true"
-  layout="button_count"
-  colorscheme="dark"
-  >
-</div>
-</h2>
+    <div class="sns_zone">
+        <div class="sns_container"><div class="fb-like" data-share="true" data-width="450" data-show-faces="true" layout="button_count" colorscheme="dark"></div></div>    
+        <div class="sns_container"><a class="twitter-share-button" href="http://animatedicons.pe.hu">Tweet</a></div>
+        <div class="sns_container"><div class="g-plusone" data-size="medium" data-href="http://animatedicons.pe.hu"></div></div>
+    </div>
+
     <div class="icon sun-shower">
         <div class="cloud"></div>
         <div class="sun">
