@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://animatedicons.pe.hu/sitemap/sitemap.xml
