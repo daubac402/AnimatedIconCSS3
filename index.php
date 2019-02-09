@@ -56,59 +56,21 @@
     }(document, 'script', 'facebook-jssdk'));
     </script>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- animatedicons.pe.hu -->
-    <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8395820335361202" data-ad-slot="9996632977"></ins>
+    <!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+    <!-- animatedicons.toancaro.com -->
+    <!-- <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-8395820335361202" data-ad-slot="9996632977"></ins> -->
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-    <script type='text/javascript'>
-    (function(w) {
-        if (navigator.userAgent.match(/iPhone|iPod|iPad|Android/i) == null) return;
-        var d = document,
-            h = d.getElementsByTagName('head')[0],
-            s = d.createElement('style'),
-            j = d.createElement('script'),
-            k = d.createElement('script');
-        s.setAttribute('rel', 'mw-page-block');
-        s.innerHTML = 'body > * {display:none !important}';
-        j.setAttribute('src', '//cdn.adsoptimal.com/advertisement/settings/49985.js');
-        k.setAttribute('src', '//cdn.adsoptimal.com/advertisement/dispatcher.js');
-        j.onerror = k.onerror = function() {
-            h.removeChild(s);
-            h.removeChild(j);
-            h.removeChild(k);
-        };
-        h.appendChild(s);
-        h.appendChild(j);
-        h.appendChild(k);
-    })(window);
-    </script>
-    <script type='text/javascript'>
-    (function(w) {
-        var d = document,
-            h = d.getElementsByTagName('head')[0],
-            j = d.createElement('script'),
-            k = d.createElement('script');
-        j.setAttribute('src', '//cdn.adsoptimal.com/advertisement/settings/49985.js');
-        k.setAttribute('src', '//cdn.adsoptimal.com/advertisement/manual.js');
-        h.appendChild(j);
-        h.appendChild(k);
-    })(window);
     </script>
     <title>Animated Icons</title>
 </head>
 
 <body>
-    <div style="width: 100%">
-        <div class="adsoptimal-slot" style="width: 728px; height: 90px; margin: 0 auto;"></div>
-    </div>
-
     <h1>Animated Icons</h1>
     <div class="sns_zone">
         <div class="sns_container"><div class="fb-like" data-share="true" data-width="450" data-show-faces="true" layout="button_count" colorscheme="dark"></div></div>    
-        <div class="sns_container"><a class="twitter-share-button" href="http://animatedicons.pe.hu">Tweet</a></div>
-        <div class="sns_container"><div class="g-plusone" data-size="medium" data-href="http://animatedicons.pe.hu"></div></div>
+        <div class="sns_container"><a class="twitter-share-button" href="http://animatedicons.toancaro.com">Tweet</a></div>
+        <div class="sns_container"><div class="g-plusone" data-size="medium" data-href="http://animatedicons.toancaro.com"></div></div>
     </div>
 
     <div class="icon sun-shower">
@@ -191,8 +153,5 @@
     </div>
     <div class="icon chrome">
         <div class="chrome_logo"></div>
-    </div>
-    <div style="width: 100%">
-        <div class="adsoptimal-slot" style="width: 728px; height: 90px; margin: 0 auto;"></div>
     </div>
 </body>
