@@ -1,7 +1,5 @@
-# Animated Icons CSS3
+# Animated Icons only with CSS3
 
-## Deploy to Firebase
+<https://animatedicons.web.app>
 
-```bash
-$firebase deploy --only hosting:animatedicons
-```
+![Screenshot](./public/img/Screenshot.jpg)
